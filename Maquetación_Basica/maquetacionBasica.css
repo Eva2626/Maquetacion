@@ -1,0 +1,141 @@
+/* padre=cuadrado gris */
+
+.padre {
+    width: 25%;
+    height: 70vh;
+    border: 5px solid rgb(188, 191, 188);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.header {
+    width: 98%;
+    height: 10%;
+    border: 3px solid rgb(122, 186, 130);
+    border-radius: 5px;
+
+}
+
+.nav {
+    width: 98%;
+    height: 5%;
+    border: 3px solid rgb(216, 133, 191);
+    border-radius: 5px;
+
+}
+/* segundo padre cuadrado del medio de article y div  */
+
+.medio {
+    width: 98%;
+    height: 75%;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: flex-end;
+}
+/* article lleva cuadrado header  */
+.article {
+    width: 69%;
+    height: 98%;
+    border: 3px solid rgb(54, 117, 254);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.headerintoArticle {
+    width: 98%;
+    height: 10%;
+    border: 3px solid rgb(122, 186, 130);
+    border-radius: 5px;
+
+
+}
+/* se tiene que separar article por la parte de abajo, section1,2 y footer */
+.separacionsection {
+    width: 100%;
+    height: 73%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    justify-content: last baseline;
+
+
+}
+
+
+.section1 {
+    width: 98%;
+    height: 10%;
+    border: 3px solid rgb(218, 110, 240);
+    border-radius: 5px;
+
+
+}
+
+.section2 {
+    width: 98%;
+    height: 10%;
+    border: 3px solid rgb(218, 110, 240);
+    border-radius: 5px;
+
+}
+
+.footer1 {
+    width: 98%;
+    height: 7%;
+    border: 3px solid rgb(196, 196, 35);
+    border-radius: 5px;
+
+}
+
+/* cuadrado izq-centro - contiene aside aside */
+.div {
+    width: 30%;
+    height: 98%;
+    border: 3px solid rgb(196, 196, 15);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+
+}
+
+.aside1 {
+    width: 95%;
+    height: 41%;
+    border: 3px solid rgb(77, 193, 199);
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+    justify-items: end;
+}
+
+.aside2 {
+    width: 95%;
+    height: 41%;
+    border: 3px solid rgb(77, 193, 199);
+    border-radius: 5px;
+    justify-items: end;
+
+
+}
+
+/* parte de abajo */
+.footerabajo {
+    width: 98%;
+    height: 5%;
+    border: 3px solid rgb(196, 196, 15);
+    border-radius: 5px;
+
+}
