@@ -8,14 +8,15 @@
 
 /* ------------------------------------ */
 
-.padre_fixed {
+.padre {
     width: 100%;
     height: 100vh;
+    /* position: fixed; */
 }
 
 .header {
     width: 100%;
-    height: 11%;
+    height: 67px;
     border: 1px solid rgb(0, 0, 0);
     background-color: rgb(2, 2, 2);
     display: flex;
@@ -68,7 +69,7 @@ a {
 
 .cuerpo {
     width: 100%;
-    /* height: 100vh; */
+    height: 50%;
     /* border: 2px solid rgb(4, 4, 244); */
     background-color: rgb(4, 4, 244);
     display: flex;
@@ -84,7 +85,7 @@ a {
 /* bloque pag.completa primer curso */
 .bloque1 {
     width: 90%;
-    height: 60vh;
+    height: 60%;
     /* border: 2px solid rgb(25, 176, 27); */
     display: flex;
     flex-direction: column;
@@ -123,19 +124,21 @@ a {
 
 .cuerpo2 {
     width: 100%;
-    /* height: 80vh; */
+    height: 50%;
     /* border: 2px solid rgb(4, 4, 244);
-    background-color: rgb(153, 153, 221); */
+    background-color: rgb(153, 221, 162); */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
 }
 
 .bloque2 {
-    width: 75%;
-    height: 55vh;
-    /* border: 2px solid rgb(25, 176, 27); */
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid rgb(101, 58, 32); */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -143,37 +146,46 @@ a {
 
 }
 
+.negrita {
+    font-weight: bold;
+}
+
 .imagenfulldesarrollo img {
     height: 100%;
 }
 
 .horariosfulld {
-    width: 80%;
+    width: 50%;
     height: 100%;
-    /* border: 2px solid rgb(32, 28, 142); */
+    /* border: 2px solid rgb(142, 28, 62); */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-decoration: double;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 
 /* bloque curso parttime */
 .cuerpo3 {
     width: 100%;
-    /* height: 100vh; */
+    height: 50%;
     /* border: 2px solid rgb(4, 4, 244);
     background-color: rgb(153, 153, 221); */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+
 }
 
 .bloque3 {
-    width: 75%;
-    height: 55vh;
+    width: 50%;
+    height: 80%;
     /* border: 2px solid rgb(25, 176, 27); */
     display: flex;
     flex-direction: row;
@@ -186,6 +198,7 @@ a {
     height: 100%;
     /* border: 2px solid rgb(32, 28, 142); */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-decoration: double;
@@ -193,7 +206,7 @@ a {
 }
 
 .imagenpartdesarrollo img {
-    height: 90%;
+    height: 100%;
 }
 
 
@@ -204,7 +217,6 @@ a {
 
 .cuerpo4 {
     width: 100%;
-    /* height: 100vh; */
     /* border: 2px solid rgb(4, 4, 244);
     background-color: rgb(4, 4, 244); */
     display: flex;
@@ -246,18 +258,21 @@ a {
 
 .cuerpo5 {
     width: 100%;
-    /* height: 80vh; */
+    height: 50%;
     /* border: 2px solid rgb(4, 4, 244);
     background-color: rgb(153, 153, 221); */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+
 }
 
 .bloque5 {
-    width: 75%;
-    height: 55vh;
+    width: 50%;
+    height: 100%;
     /* border: 2px solid rgb(25, 176, 27); */
     display: flex;
     flex-direction: row;
@@ -267,7 +282,7 @@ a {
 }
 
 .imagendatafull img {
-    height: 130%;
+    height: 100%;
     /* border: 5px solid blueviolet; */
 }
 
@@ -276,6 +291,7 @@ a {
     height: 100%;
     /* border: 2px solid rgb(32, 28, 142); */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-decoration: double;
@@ -284,27 +300,33 @@ a {
 
 .cuerpo6 {
     width: 100%;
-    /* height: 100vh; */
-    /* border: 2px solid rgb(4, 4, 244); */
-    /* background-color: rgb(153, 153, 221); */
+    height: 50%;
+    /* border: 2px solid rgb(4, 4, 244);
+    background-color: rgb(212, 31, 31); */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+
 }
 
 .bloque6 {
-    width: 75%;
-    height: 55vh;
+    width: 50%;
+    height: 80%;
     /* border: 2px solid rgb(25, 176, 27); */
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    
 
 }
 
 .imagendatapart img {
-    height:80%;
+    height: 95%;
+    /* border: 5px solid blue; */
+
 }
 
 .horariopartdata {
@@ -312,9 +334,9 @@ a {
     height: 100%;
     /* border: 2px solid rgb(32, 28, 142); */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-decoration: double;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-

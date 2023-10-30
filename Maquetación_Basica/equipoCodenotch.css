@@ -19,7 +19,6 @@
     border: 1px solid rgb(0, 0, 0);
     background-color: rgb(2, 2, 2);
     display: flex;
-    /* display: fixed;  */
 
 }
 
@@ -68,7 +67,7 @@ a {
 
 .cuerpo {
     width: 100%;
-    height: 100vh;
+    height: 60%;
     /* border: 2px solid rgb(4, 4, 244); */
     background-color: rgb(4, 4, 244);
     display: flex;
@@ -121,25 +120,25 @@ a {
 
 }
 
-.equipototos {
+.equipofotos {
     width: 100%;
-    height: 40vh;
+    height: 50%;
     /* border: 3px solid rgb(226, 43, 125); */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
 .imagenprofes img {
-    height: 31%;
+    height: 45%;
     justify-content: space-evenly;
 
 }
 
 .descripcionprofes {
-    width: 100% height 33%;
+    width: 100%; 
     /* border: 3px solid yellow; */
     display: flex;
     flex-direction: ROW;
@@ -170,4 +169,8 @@ a {
     height: 100%;
     /* border: 2px solid rgb(19, 22, 115); */
 
+}
+
+.negrita {
+    font-weight: bold;
 }
