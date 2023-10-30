@@ -1,0 +1,112 @@
+/* poner siempre al empezar la pagina */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------ */
+
+.padre {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: 11%;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(2, 2, 2);
+    display: flex;
+    /* display: fixed;  */
+
+}
+
+.mitadheader {
+    width: 30%;
+    height: 100%;
+    font-size: 18px;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+
+}
+
+.imagen img {
+    height: 10%;
+}
+
+a {
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.mitadheader2 {
+
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid rgb(33, 181, 42); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aqua;
+
+}
+
+.enlaces {
+    color: rgb(213, 217, 216);
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ************************************************************** */
+.cuerpo {
+    width: 100%;
+    height: 100vh;
+    border: 2px solid rgb(4, 4, 244);
+    background-color: rgb(4, 4, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    color: white;
+    /* copio el fondo de la pantalla url  */
+    background-image: url("https://www.codenotch.com/wp-content/uploads/2021/09/Web-portada-3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.frase1 {
+    width: 85%;
+    /* height: 25%; */
+    /* border: 1px solid orange; */
+    font-size: 37px;
+    margin-inline-start: auto;
+
+}
+
+.frase2 {
+    width: 85%;
+    /* height: 20%; */
+    /* border: 1px solid orange; */
+    font-size: 27px;
+    margin-inline-start: auto;
+
+
+}
+
+.formulario {
+    width: 30%;
+    height: 100vh;
+    /* border: 1px solid orange; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 200px;
+}
