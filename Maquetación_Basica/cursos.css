@@ -1,0 +1,342 @@
+/* poner siempre al empezar la pagina */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------ */
+
+.padre {
+    width: 100%;
+    height: 100vh;
+    /* position: fixed; */
+}
+
+.header {
+    width: 100%;
+    height: 67px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(2, 2, 2);
+    display: flex;
+    /* display: fixed;  */
+
+}
+
+.mitadheader {
+    width: 30%;
+    height: 100%;
+    font-size: 18px;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+
+}
+
+.imagen img {
+    height: 10%;
+}
+
+a {
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.mitadheader2 {
+
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid rgb(33, 181, 42); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aqua;
+
+}
+
+.enlaces {
+    color: rgb(213, 217, 216);
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.cuerpo {
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid rgb(4, 4, 244); */
+    background-color: rgb(4, 4, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* copio el fondo de la pantalla url  */
+    background-image: url("https://www.codenotch.com/wp-content/uploads/2021/05/bootcamp-desarrollo-web-y-movil.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* bloque pag.completa primer curso */
+.bloque1 {
+    width: 90%;
+    height: 60%;
+    /* border: 2px solid rgb(25, 176, 27); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.parrafo1 {
+    font-size: 30px;
+    /* border: 1px solid black; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.parrafo2 {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: white;
+    /* border: 1px solid rgb(193, 16, 16); */
+}
+
+.parrafo3 {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    /* border: 1px solid black; */
+    align-items: last baseline;
+}
+
+
+
+
+
+/* bloque curso fulltime desarrollo */
+
+.cuerpo2 {
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid rgb(4, 4, 244);
+    background-color: rgb(153, 221, 162); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.bloque2 {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid rgb(101, 58, 32); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.imagenfulldesarrollo img {
+    height: 100%;
+}
+
+.horariosfulld {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid rgb(142, 28, 62); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: double;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+/* bloque curso parttime */
+.cuerpo3 {
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid rgb(4, 4, 244);
+    background-color: rgb(153, 153, 221); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+
+}
+
+.bloque3 {
+    width: 50%;
+    height: 80%;
+    /* border: 2px solid rgb(25, 176, 27); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.horariospartd {
+    width: 80%;
+    height: 100%;
+    /* border: 2px solid rgb(32, 28, 142); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: double;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imagenpartdesarrollo img {
+    height: 100%;
+}
+
+
+
+
+/* ******portada curso big data */
+
+
+.cuerpo4 {
+    width: 100%;
+    /* border: 2px solid rgb(4, 4, 244);
+    background-color: rgb(4, 4, 244); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* copio el fondo de la pantalla url  */
+    background-image: url("https://www.codenotch.com/wp-content/uploads/2023/04/Diseno-sin-titulo-12.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bloque4 {
+    width: 90%;
+    height: 60vh;
+    /* border: 2px solid rgb(25, 176, 27); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.parrafo11 {
+    font-size: 30px;
+    /* border: 1px solid black; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.parrafo22 {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: white;
+    /* border: 1px solid rgb(193, 16, 16); */
+}
+
+/* data  */
+
+.cuerpo5 {
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid rgb(4, 4, 244);
+    background-color: rgb(153, 153, 221); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+
+}
+
+.bloque5 {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid rgb(25, 176, 27); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.imagendatafull img {
+    height: 100%;
+    /* border: 5px solid blueviolet; */
+}
+
+.horariodatafull {
+    width: 80%;
+    height: 100%;
+    /* border: 2px solid rgb(32, 28, 142); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: double;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cuerpo6 {
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid rgb(4, 4, 244);
+    background-color: rgb(212, 31, 31); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+
+}
+
+.bloque6 {
+    width: 50%;
+    height: 80%;
+    /* border: 2px solid rgb(25, 176, 27); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+.imagendatapart img {
+    height: 95%;
+    /* border: 5px solid blue; */
+
+}
+
+.horariopartdata {
+    width: 80%;
+    height: 100%;
+    /* border: 2px solid rgb(32, 28, 142); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: double;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
